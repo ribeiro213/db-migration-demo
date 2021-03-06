@@ -1,7 +1,8 @@
 name: primeira actions
 
 on:
-  push: [main]
+  push:
+    branches: [main]
 jobs:
   job1:
     runs-on: ubuntu-latest
