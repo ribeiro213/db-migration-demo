@@ -1,9 +1,9 @@
 name: primeira actions
 
 on:
-  push:
+  push: [main]
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Hello Word"
+      - run: echo "Hello Word"
